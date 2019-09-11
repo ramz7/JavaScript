@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+//Two types of variables 1)Local variable  2)Global Variable
+ var global = 100; //Global Variable
+function abc(){
+	 var local=200; // Local Variable
+	 window.value=300; // Declaring global variable by window object
+	document.write(global);
+	document.write("<br />");
+	document.write(local);
+}
+ function xyz(){
+	 alert(window.value);
+	 // alert(window.global) //alerts 100 
+ }
+ abc(); // Calling Javascript Function 
+xyz(); // Calling abc() is must
+</script>
+</body>
+</html>
