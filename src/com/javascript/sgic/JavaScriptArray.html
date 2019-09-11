@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		// There are 3 ways to create objects.
+
+		// 1) By array literal
+		// 2) By creating instance of Array directly (using new keyword)
+		// 3) By using an Array constructor (using new keyword)
+
+		//1)  By array literal
+		var emp = [ "aaaaa", "bbbbbb", "ccccc" ];
+		for (i = 0; i < emp.length; i++) {
+			document.write(emp[i] + "<br />");
+		}
+		document.write("<br />");
+		//2) By creating instance of Array directly (using new keyword)
+		var i;
+		var emp = new Array();
+		emp[0] = "Arun";
+		emp[1] = "Varun";
+		emp[2] = "John";
+
+		for (i = 0; i < emp.length; i++) {
+			document.write(emp[i] + "<br>");
+		}
+		document.write("<br />");
+		//3) By using an Array constructor (using new keyword)
+		var employee = new Array("xxxx", "yyyyy", "zzzzz");
+		for (i = 0; i < employee.length; i++) {
+			document.write(employee[i] + "<br />")
+		}
+	</script>
+</body>
+</html>

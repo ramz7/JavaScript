@@ -8,11 +8,11 @@
 	<script>
 		// There are 3 ways to create objects.
 
-		// By object literal
-		// By creating instance of Object directly (using new keyword)
-		// By using an object constructor (using new keyword)
+		// 1) By object literal
+		// 2) By creating instance of Object directly (using new keyword)
+		// 3) By using an object constructor (using new keyword)
 
-		// By object literal
+		//1)  By object literal
 		emp = {
 			id : 102,
 			name : "Shyam Kumar",
@@ -20,14 +20,14 @@
 		}
 		document.write(emp.id + " " + emp.name + " " + emp.salary);
 
-		//By creating instance of Object
+		//2) By creating instance of Object
 		document.write("<br />")
 		var emp = new Object();
 		emp.id = 9;
 		emp.name = "Rammiya"
 		document.write(emp.id + "  " + emp.name)
 
-		// By using an object constructor (using new keyword)
+		//3) By using an object constructor (using new keyword)
 		function employee(id, name) {
 			this.id = id;
 			this.name = name;

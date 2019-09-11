@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p>square root 17 is <span id="sqr"></span></p>
+<p>random number is <span id="ran"></span></p>
+<p>3 to the power of 2 is <span id="pow"></span></p>
+	<script>
+	document.getElementById('sqr').innerHTML=Math.sqrt(17);
+	document.getElementById('ran').innerHTML=Math.random();
+	document.getElementById('pow').innerHTML=Math.pow(3,2);
+	// math.floor(n) method returns the lowest integer for the given number. For example 3 for 3.7, 5 for 5.9 etc
+	// math.ceil(n) method returns the largest integer for the given number. For example 4 for 3.7, 6 for 5.9 etc.
+	/* math.round(n) method returns the rounded integer nearest for the given number. If fractional part is equal or greater than 0.5, 
+	it goes to upper value 1 otherwise lower value 0. For example 4 for 3.7, 3 for 3.3, 6 for 5.9 etc.*/
+	// JavaScript math.abs(n) method returns the absolute value for the given number. For example 4 for -4, 6.6 for -6.6 etc.
+	
+	// JavaScript Boolean
+	document.write(10<20);//true  
+	document.write(10<5);//false 
+	</script>
+</body>
+</html>
